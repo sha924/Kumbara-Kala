@@ -42,6 +42,9 @@ sealed class Route(val path: String) {
     data object Upload : Route("upload")
 }
 
+
+
+
 @Composable
 fun KumbaraNavigation() {
     val navController = rememberNavController()
