@@ -53,6 +53,7 @@ fun HomeScreen(
         TopAppBar(
             title = {
                 Column {
+
                     Text("Kumbara-Kala", fontWeight = FontWeight.Bold)
                     Text("Digital branding for potters", style = MaterialTheme.typography.bodySmall)
                 }
