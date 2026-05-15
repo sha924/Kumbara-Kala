@@ -19,4 +19,7 @@ fun KumbaraSearchBar(query: String, onQueryChange: (String) -> Unit, modifier: M
         leadingIcon = { Icon(Icons.Filled.Search, contentDescription = "Search") },
         placeholder = { Text("Search products, artisans, villages") }
     )
+
+
+
 }
