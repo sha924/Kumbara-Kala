@@ -18,4 +18,7 @@ class AuthRepository {
         val firebaseAuth = auth ?: return@runCatching
         firebaseAuth.createUserWithEmailAndPassword(email, password).await()
     }
+
+
+
 }
