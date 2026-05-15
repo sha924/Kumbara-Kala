@@ -76,5 +76,7 @@ object SampleData {
         productsCreated = products.size
     )
 
+
+
     val categories = listOf("All", "Waterware", "Drinkware", "Cookware", "Decor")
 }
