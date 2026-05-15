@@ -7,4 +7,8 @@ data class Artisan(
     val photoUrl: String = "",
     val heritageStory: String = "",
     val productsCreated: Int = 0
+
+
+
 )
+
